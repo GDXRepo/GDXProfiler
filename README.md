@@ -58,7 +58,7 @@ When you want to finish your measurement, stop a profiler by calling `stop`:
 [profiler stopWithMessage:@"Some profiling finished!"];
 ```
 
-After that you can create a new profiler by calling `start` as you see above, it's no necessary to keep a strong reference to a stopped profiler anymore. Also you can use `reset` function to renew your existing profiler and use it again.
+After stopping you can create a new profiler by calling `start` as you see above, it's no necessary to keep a strong reference to a stopped profiler anymore. Also you can use `restart` or `restartWithMessage:` functions instead to renew your existing profiler and use it again.
 
 You can create as many profilers as you need, just be sure that you keep strong references to them.
 
