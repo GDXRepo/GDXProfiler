@@ -26,7 +26,7 @@ Alternatively you can directly add the `NRGProfiler.h` and `NRGProfiler.m` sourc
 
 When you want to start profiling some critical code, just start a new profiler by calling static method
 
-```
+```objective-c
 NRGProfiler *profiler = [NRGProfiler startWithMessage:@"I'm profiling my special code!"];
 
 // or use shorter version
@@ -37,13 +37,13 @@ Note that you can use short method version without specifying an input message i
 
 Now profiling is started. When you need to log a spot, just call this:
 
-```
+```objective-c
 [profiler pointWithMessage:@"I've finished some kind of work!"];
 ```
 
 If you save your point value (points stored as seconds with high precision transformed from nano seconds) - you can use it for further measurement. For example, in this case:
 
-```
+```objective-c
 double p1 = [profiler point];
 // some critical code block
 // ...
@@ -54,7 +54,7 @@ NSLog(@"My critical code passed in %.3f", p2 - p1); // just subtract them
 
 When you want to finish your measurement, stop a profiler by calling `stop`:
 
-```
+```objective-c
 [profiler stopWithMessage:@"Some profiling finished!"];
 ```
 
