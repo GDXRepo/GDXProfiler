@@ -75,4 +75,4 @@ You can find sample application in the `Samples` folder.
 
 ## License
 
-MIT. See `LICENSE` for details.
+Apache. See `LICENSE` for details.
