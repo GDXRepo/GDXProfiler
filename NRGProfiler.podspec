@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "NRGProfiler"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "Simple time profiling library in Objective-C based on MTU (Mach Time Units)"
   s.homepage         = "https://github.com/NRGRepo/NRGProfiler"
   s.license          = { :type => "Apache", :file => "LICENSE" }
