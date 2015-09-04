@@ -6,7 +6,7 @@ GDXProfiler uses standard `NSLog()` function to print your spots synchronously i
 
 ## Adding GDXProfiler to your project
 
-### Cocoapods
+### CocoaPods
 
 [CocoaPods](http://cocoapods.org) is the recommended way to add GDXProfiler to your project.
 
