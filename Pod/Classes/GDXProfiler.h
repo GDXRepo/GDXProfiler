@@ -207,7 +207,7 @@
 #import <Foundation/Foundation.h>
 
 
-@interface NRGProfiler : NSObject {
+@interface GDXProfiler : NSObject {
     
 }
 
