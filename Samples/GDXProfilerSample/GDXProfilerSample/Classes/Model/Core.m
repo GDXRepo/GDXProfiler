@@ -7,7 +7,7 @@
 //
 
 #import "Core.h"
-#import "NRGProfiler.h"
+#import "GDXProfiler.h"
 
 // error domain
 NSString *const kCoreErrorDomain = @"CoreErrorDomain";
@@ -30,7 +30,7 @@ typedef NS_ENUM(NSInteger, CoreError) {
 
 
 @interface Core () {
-    NRGProfiler *profiler;
+    GDXProfiler *profiler;
     NSNumber    *lastPoint;
 }
 
@@ -76,7 +76,7 @@ typedef NS_ENUM(NSInteger, CoreError) {
         
         [self profilerStop];
     }
-    profiler = [NRGProfiler start];
+    profiler = [GDXProfiler start];
     
     [self notify:kNotificationCoreDidStartProfiling userInfo:nil];
 }

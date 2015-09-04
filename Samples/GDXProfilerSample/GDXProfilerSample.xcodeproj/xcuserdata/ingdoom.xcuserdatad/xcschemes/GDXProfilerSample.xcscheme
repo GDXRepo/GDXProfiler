@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF8E9F121B88994D00412914"
-               BuildableName = "NRGProfilerSample.app"
-               BlueprintName = "NRGProfilerSample"
-               ReferencedContainer = "container:NRGProfilerSample.xcodeproj">
+               BlueprintIdentifier = "CF6E3E781B997B860094B036"
+               BuildableName = "GDXProfilerSample.app"
+               BlueprintName = "GDXProfilerSample"
+               ReferencedContainer = "container:GDXProfilerSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF8E9F2B1B88994D00412914"
-               BuildableName = "NRGProfilerSampleTests.xctest"
-               BlueprintName = "NRGProfilerSampleTests"
-               ReferencedContainer = "container:NRGProfilerSample.xcodeproj">
+               BlueprintIdentifier = "CF6E3E911B997B860094B036"
+               BuildableName = "GDXProfilerSampleTests.xctest"
+               BlueprintName = "GDXProfilerSampleTests"
+               ReferencedContainer = "container:GDXProfilerSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CF8E9F2B1B88994D00412914"
-               BuildableName = "NRGProfilerSampleTests.xctest"
-               BlueprintName = "NRGProfilerSampleTests"
-               ReferencedContainer = "container:NRGProfilerSample.xcodeproj">
+               BlueprintIdentifier = "CF6E3E911B997B860094B036"
+               BuildableName = "GDXProfilerSampleTests.xctest"
+               BlueprintName = "GDXProfilerSampleTests"
+               ReferencedContainer = "container:GDXProfilerSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF8E9F121B88994D00412914"
-            BuildableName = "NRGProfilerSample.app"
-            BlueprintName = "NRGProfilerSample"
-            ReferencedContainer = "container:NRGProfilerSample.xcodeproj">
+            BlueprintIdentifier = "CF6E3E781B997B860094B036"
+            BuildableName = "GDXProfilerSample.app"
+            BlueprintName = "GDXProfilerSample"
+            ReferencedContainer = "container:GDXProfilerSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF8E9F121B88994D00412914"
-            BuildableName = "NRGProfilerSample.app"
-            BlueprintName = "NRGProfilerSample"
-            ReferencedContainer = "container:NRGProfilerSample.xcodeproj">
+            BlueprintIdentifier = "CF6E3E781B997B860094B036"
+            BuildableName = "GDXProfilerSample.app"
+            BlueprintName = "GDXProfilerSample"
+            ReferencedContainer = "container:GDXProfilerSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CF8E9F121B88994D00412914"
-            BuildableName = "NRGProfilerSample.app"
-            BlueprintName = "NRGProfilerSample"
-            ReferencedContainer = "container:NRGProfilerSample.xcodeproj">
+            BlueprintIdentifier = "CF6E3E781B997B860094B036"
+            BuildableName = "GDXProfilerSample.app"
+            BlueprintName = "GDXProfilerSample"
+            ReferencedContainer = "container:GDXProfilerSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

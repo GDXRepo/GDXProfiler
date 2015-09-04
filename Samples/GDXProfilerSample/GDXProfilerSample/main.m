@@ -1,8 +1,8 @@
 //
 //  main.m
-//  NRGProfilerSample
+//  GDXProfilerSample
 //
-//  Created by Георгий Малюков on 22.08.15.
+//  Created by Георгий Малюков on 04.09.15.
 //  Copyright (c) 2015 Georgiy Malyukov. All rights reserved.
 //
 

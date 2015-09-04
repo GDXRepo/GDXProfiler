@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>NRGProfilerSample.xcscheme</key>
+		<key>GDXProfilerSample.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CF8E9F121B88994D00412914</key>
+		<key>CF6E3E781B997B860094B036</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF8E9F2B1B88994D00412914</key>
+		<key>CF6E3E911B997B860094B036</key>
 		<dict>
 			<key>primary</key>
 			<true/>
