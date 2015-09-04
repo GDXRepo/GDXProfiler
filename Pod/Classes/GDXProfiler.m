@@ -204,20 +204,20 @@
  
  */
 
-#import "NRGProfiler.h"
+#import "GDXProfiler.h"
 #import <mach/mach_time.h>
 
 // wrap NSLog
-#ifndef NRGDLog
+#ifndef GDXALog
     #ifdef DEBUG
-        #define NRGDLog NSLog
+        #define GDXALog NSLog
     #else
-        #define NRGDLog(...)
+        #define GDXALog(...)
     #endif
 #endif
 
 
-@interface NRGProfiler () {
+@interface GDXProfiler () {
     
 }
 
@@ -228,7 +228,7 @@
 @end
 
 
-@implementation NRGProfiler
+@implementation GDXProfiler
 
 static mach_timebase_info_data_t timebaseInfo;
 
@@ -255,9 +255,9 @@ static mach_timebase_info_data_t timebaseInfo;
 #pragma mark - Common
 
 + (instancetype)startWithMessage:(NSString *)msg {
-    NRGProfiler *profiler = [[[self class] alloc] initPrivate];
+    GDXProfiler *profiler = [[[self class] alloc] initPrivate];
 
-    NRGDLog(@"[NRGProfiler]: Profiling Started. %@", (msg) ? msg : @"");
+    GDXALog(@"[GDXProfiler]: Profiling Started. %@", (msg) ? msg : @"");
 
     return profiler;
 }
@@ -267,7 +267,7 @@ static mach_timebase_info_data_t timebaseInfo;
     
     double elapsedSeconds = self.elapsedSeconds;
     
-    NRGDLog(@"[NRGProfiler]: Point (%.3f s). %@", elapsedSeconds, (msg) ? msg : @"");
+    GDXALog(@"[GDXProfiler]: Point (%.3f s). %@", elapsedSeconds, (msg) ? msg : @"");
 
     return elapsedSeconds;
 }
@@ -278,7 +278,7 @@ static mach_timebase_info_data_t timebaseInfo;
     double elapsedSeconds = self.elapsedSeconds;
     startTime = 0; // make start time invalid
     
-    NRGDLog(@"[NRGProfiler]: Profiling Stopped (%.3f s). %@", elapsedSeconds, (msg) ? msg : @"");
+    GDXALog(@"[GDXProfiler]: Profiling Stopped (%.3f s). %@", elapsedSeconds, (msg) ? msg : @"");
     
     return elapsedSeconds;
 }
@@ -286,7 +286,7 @@ static mach_timebase_info_data_t timebaseInfo;
 - (void)restartWithMessage:(NSString *)msg {
     [self setupStartTime];
     
-    NRGDLog(@"[NRGProfiler]: Profiling Restarted. %@", (msg) ? msg : @"");
+    GDXALog(@"[GDXProfiler]: Profiling Restarted. %@", (msg) ? msg : @"");
 }
 
 + (instancetype)start {
