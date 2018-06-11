@@ -4,6 +4,10 @@ GDXProfiler is the simple time profiling library based on MTU (Mach Time Units) 
 
 GDXProfiler uses standard `NSLog()` function to print your spots synchronously in a main thread to keep your logs actual at any time.
 
+## Swift support
+
+Swift-based version named `Profiler` is included in the `ClawKit` repository hosted here: https://github.com/GDXRepo/ClawKit
+
 ## Adding GDXProfiler to your project
 
 ### CocoaPods
